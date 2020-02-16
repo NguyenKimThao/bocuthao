@@ -25,4 +25,3 @@ module.exports = (app) => {
         })
     })
 }
-huhu
