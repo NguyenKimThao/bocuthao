@@ -6,6 +6,9 @@ require('./lib/express')(app, express);
 require('./route')(app);
 require('./lib/db')
 
+console.log("helo thao")
+
+
 app.listen(config.server.port, function () {
     console.log('Express is running on port ' + config.server.port);
 });
